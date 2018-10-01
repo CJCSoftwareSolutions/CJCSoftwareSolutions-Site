@@ -1,25 +1,51 @@
-baseURL = "https://cjcsoftwaresolutions.co.uk/"
-languageCode = "en-gb"
+baseURL = "https://cjcsoftwaresolutions.co.uk"
+languageCode = "en-us"
 title = "CJC Software Solutions Ltd."
-theme = "pristine"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
 
 [params]
-    portrait = "img/cjcss_logo.jpg"
-[[params.social]]
-    title = "Email"
-    url = "mailto:info@cjcsoftwaresolutions.co.uk"
-[[params.social]]
-    title = "Follow @ClarksonCJ"
-    url = "https://twitter.com/clarksoncj"
-[[params.social]]
-    title = "Github"
-    url = "https://github.com/clarksoncj"
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+    since = 2018
+    author = "Chris Clarkson"                           # Author's name
+    avatar = "img/cjcss_logo.jpg"           # Author's avatar
+    subtitle = "Cloud and Security Consultancy"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
 
-[[menu.main]]
-  name = "All Articles"
-  url = "/all/"
-  weight = 2
+    google_verification = ""
+   
+    description = "" # site description
+    keywords = "" # site keywords
+
+
+
+[params.social]
+    GitHub = "https://github.com/CJCSoftwareSolutions"
+    Twitter = "ClarksonCJ"
+    Email   = "info@cjcsoftwaresolutions.co.uk"
+    Linkedin = "cjclarkson"
