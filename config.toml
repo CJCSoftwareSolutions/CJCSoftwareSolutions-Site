@@ -1,0 +1,25 @@
+baseURL = "https://cjcsoftwaresolutions.co.uk/"
+languageCode = "en-gb"
+title = "CJC Software Solutions Ltd."
+theme = "pristine"
+
+[params]
+    portrait = "img/cjcss_logo.jpg"
+[[params.social]]
+    title = "Email"
+    url = "mailto:info@cjcsoftwaresolutions.co.uk"
+[[params.social]]
+    title = "Follow @ClarksonCJ"
+    url = "https://twitter.com/clarksoncj"
+[[params.social]]
+    title = "Github"
+    url = "https://github.com/clarksoncj"
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All Articles"
+  url = "/all/"
+  weight = 2
