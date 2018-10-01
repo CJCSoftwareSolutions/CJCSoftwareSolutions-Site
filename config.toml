@@ -45,7 +45,7 @@ preserveTaxonomyNames = true
 
 
 [params.social]
-    GitHub = "https://github.com/CJCSoftwareSolutions"
+    GitHub = "CJCSoftwareSolutions"
     Twitter = "ClarksonCJ"
     Email   = "info@cjcsoftwaresolutions.co.uk"
     Linkedin = "cjclarkson"
