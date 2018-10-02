@@ -20,14 +20,9 @@ preserveTaxonomyNames = true
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 1
-
-  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 2
+    weight = 1
 
 [params]
     since = 2018
@@ -48,4 +43,4 @@ preserveTaxonomyNames = true
     GitHub = "CJCSoftwareSolutions"
     Twitter = "ClarksonCJ"
     Email   = "info@cjcsoftwaresolutions.co.uk"
-    Linkedin = "cjclarkson"
+    LinkedinCompany = "cjc-software-solutions-ltd/"
